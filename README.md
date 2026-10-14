@@ -1,12 +1,5 @@
 # Git Branch Manager Script
 
-## Goal
-Write a Bash script, git-manager.sh, that automates branch management in a local Git repository:
-archiving stale branches, integrating feature branches, enforcing naming hygiene, and safely rebasing
-branches that fell behind main. Every move the script makes is one you can make by hand: branches as
-files under .git/refs/heads, tags, fast-forward vs. three-way merges, merge-base, reset --soft,
-rebase and the reflog. The script turns those hand moves into a tool; it never talks to a remote.
-
 ## Description
 `git-manager.sh` is a Bash utility designed to automate and simplify Git repository management. It provides a safe, menu-driven interface to help developers maintain a clean repository structure, enforce naming conventions, and safely sync branches without risking data loss. 
 
